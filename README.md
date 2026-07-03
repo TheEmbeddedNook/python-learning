@@ -115,19 +115,6 @@ This repository may be useful if you are:
 
 ---
 
-## 🚀 Long-Term Goal
-
-By the end of this journey, this repository will include practical engineering projects such as:
-
-* CAN Log Analysis Tools
-* BLF File Processing
-* Automotive Data Automation
-* Report Generation
-* AI-assisted Engineering Utilities
-* Real-world Python applications for Embedded Systems
-
----
-
 ## 🤝 Contributions
 
 This repository is primarily a personal learning project. Suggestions, improvements, and discussions are always welcome.
