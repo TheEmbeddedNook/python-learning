@@ -37,3 +37,34 @@ elif temperature >= 50:
     print("Normal Temperature")
 else:
     print("Cold")
+
+
+# ----------------------------------------
+# Example 5: ECU Health Monitor
+# ----------------------------------------
+
+print("ECU Health Monitor")
+
+# Thresholds
+BATTERY_THRESHOLD = 11.5
+HIGH_TEMP = 80
+CRITICAL_TEMP = 100
+
+# ECU Inputs
+ignition = True
+battery_voltage = 12.4
+coolant_temperature = 65
+
+# ECU Health Check
+if ignition:
+    if battery_voltage >= BATTERY_THRESHOLD:
+        if coolant_temperature >= CRITICAL_TEMP:
+            print("Critical Temperature")
+        elif HIGH_TEMP <= coolant_temperature < CRITICAL_TEMP:
+            print("High Temperature")
+        else:
+            print("Normal Operation")
+    else:
+        print("Battery Low")
+else:
+    print("ECU OFF")
